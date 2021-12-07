@@ -68,10 +68,10 @@ rule4 = np.fmin(np.fmin(err_fit_negative, d_err_fit_zero), c_signal_muchPositive
 
 #DRAWING FUZZIED CONTROL SIGNAL
 fig, ax0 = plt.subplots(figsize = (7, 4))
-ax0.plot(x, rule1, 'r', label = "Kural1")
-ax0.plot(x, rule2, 'b', label = "Kural2")
-ax0.plot(x, rule3, 'y', label = "Kural3")
-ax0.plot(x, rule4, 'g', label = "Kural4")
+ax0.plot(x, rule1, 'r', label = "Rule1")
+ax0.plot(x, rule2, 'b', label = "Rule2")
+ax0.plot(x, rule3, 'y', label = "Rule3")
+ax0.plot(x, rule4, 'g', label = "Rule4")
 ax0.legend()
 ax0.set_title("Fuzzy Inference")
 
